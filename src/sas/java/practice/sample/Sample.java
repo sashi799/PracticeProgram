@@ -6,7 +6,9 @@ public class Sample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("Sample program");
+	//	LocalTime currentTime = new LocalTime();
+	//	System.out.println("The current local time is: " + currentTime);
+		System.out.println("Hellow Maven");
 
 	}
 
