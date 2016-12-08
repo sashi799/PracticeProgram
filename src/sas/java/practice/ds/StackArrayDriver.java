@@ -3,7 +3,7 @@ package sas.java.practice.ds;
 public class StackArrayDriver {
 	
 	public static void main(String[] args) {
-		StackArray<Integer> stack = new StackArray<>();
+		StackArray<Integer> stack = new StackArray<Integer>();
 		stack.push(1);
 		System.out.println(stack.peek());
 		System.out.println(stack.isEmpty());
@@ -21,7 +21,7 @@ public class StackArrayDriver {
 			System.out.println(integer);
 		}
 		
-		LinkedStack<Integer> lstack = new LinkedStack<>();
+		LinkedStack<Integer> lstack = new LinkedStack<Integer>();
 		lstack.push(9);
 		lstack.push(8);
 		lstack.push(7);
